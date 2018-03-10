@@ -1,0 +1,22 @@
+.bg-custom{
+
+  background: blue;
+}
+.shadow{
+  box.shadow:opx10px 10px -5px rgb(0,0,0,0.4)
+}
+
+div{
+  width:100px;
+  background: blue;
+}
+
+.paradiv{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items:center;
+}
+body{
+    background: blue;
+}
