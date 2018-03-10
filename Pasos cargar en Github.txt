@@ -1,0 +1,122 @@
+﻿Julio@Casa MINGW64 ~/desktop/dev.f/blanca/hackaton/hackaton (master)
+$ cd..
+bash: cd..: command not found
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/hackaton/hackaton (master)
+$ cd ..
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/hackaton
+$ cd ..
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca
+$ cd toServer
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer
+$ git init
+Initialized empty Git repository in C:/Users/Julio/Desktop/Dev.f/Blanca/toServer/.git/
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
+$ git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
+$ git add -A
+warning: LF will be replaced by CRLF in JS/bootstrap.bundle.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in JS/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in JS/bootstrap.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in JS/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap-grid.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
+$ git commit -m "Proyecto completo"
+[master (root-commit) 665f39e] Proyecto completo
+ 29 files changed, 21732 insertions(+)
+ create mode 100644 JS/bootstrap.bundle.js
+ create mode 100644 JS/bootstrap.bundle.js.map
+ create mode 100644 JS/bootstrap.bundle.min.js
+ create mode 100644 JS/bootstrap.bundle.min.js.map
+ create mode 100644 JS/bootstrap.js
+ create mode 100644 JS/bootstrap.js.map
+ create mode 100644 JS/bootstrap.min.js
+ create mode 100644 JS/bootstrap.min.js.map
+ create mode 100644 JS/js.js
+ create mode 100644 OtraPagina
+ create mode 100644 OtraPagina.html
+ create mode 100644 Style.css
+ create mode 100644 css/Style.css
+ create mode 100644 css/bootstrap-grid.css
+ create mode 100644 css/bootstrap-grid.css.map
+ create mode 100644 css/bootstrap-grid.min.css
+ create mode 100644 css/bootstrap-grid.min.css.map
+ create mode 100644 css/bootstrap-reboot.css
+ create mode 100644 css/bootstrap-reboot.css.map
+ create mode 100644 css/bootstrap-reboot.min.css
+ create mode 100644 css/bootstrap-reboot.min.css.map
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/bootstrap.css.map
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/bootstrap.min.css.map
+ create mode 100644 img/logo.jpg
+ create mode 100644 index.html
+ create mode 100644 index.php
+ create mode 100644 index.php7
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
+$ git remote add origin https://github.com/JulioM02/ProyectoCompleto
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
+$ git commit -m "Proyecto completo"
+On branch master
+nothing to commit, working tree clean
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
+$ git push origin master
+Counting objects: 33, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (33/33), 383.36 KiB | 2.68 MiB/s, done.
+Total 33 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/JulioM02/ProyectoCompleto
+ * [new branch]      master -> master
+
+Julio@Casa MINGW64 ~/desktop/dev.f/blanca/toServer (master)
